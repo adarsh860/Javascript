@@ -33,3 +33,24 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+// Stack(Primitive) and Heap(Non-Primitive)
+let mygitname ="adarsh8601"
+
+anothername = mygitname
+anothername = "pratap987"
+
+console.log(mygitname);
+console.log(anothername);
+
+let userOne ={
+    email:"adarsh860111@gamil.com",
+    name:"adarsh"
+}
+let userTwo = userOne
+
+userTwo.email ="pratap123@gmail.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
